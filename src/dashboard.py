@@ -163,7 +163,7 @@ if st.button("🌱 Recommend Crop"):
     try:
 
         response = requests.post(
-            "http://127.0.0.1:8000/predict/crop",
+            "http://host.docker.internal:8000/predict/crop",
             json=request_data,
             timeout=10
         )

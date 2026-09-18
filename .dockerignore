@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.coverage
+.pytest_cache/
+.git/
+.gitignore
+project_code.zip
+notebooks/
