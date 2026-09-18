@@ -59,3 +59,15 @@ shimla-crop-predictor
 ├── project_code.zip
 ├── requirements.txt
 └── README.md
+## Docker Deployment
+
+The Shimla Crop Predictor application is containerized using Docker and the image is available on Docker Hub.
+
+### Docker Hub Image
+
+`23mis0557/shimla-crop-predictor:latest`
+
+### Pull the Docker Image
+
+```bash
+docker pull 23mis0557/shimla-crop-predictor:latest
