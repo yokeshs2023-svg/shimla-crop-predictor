@@ -1,0 +1,54 @@
+SHIMLA CROP PREDICTOR
+SOFTWARE METRICS SUMMARY
+========================
+
+1. AUTOMATED TESTING
+--------------------
+Testing Framework: Pytest
+Tests Executed: 19
+Tests Passed: 19
+Tests Failed: 0
+
+Result:
+All 19 automated tests passed successfully.
+
+
+2. CODE COVERAGE
+----------------
+Tool: pytest-cov
+Total Code Coverage: 12%
+
+Note:
+The current test suite covers 12% of the source code.
+Additional tests can be added to increase coverage.
+
+
+3. CODE QUALITY
+---------------
+Tool: Pylint
+Pylint Score: 8.57 / 10
+
+Observation:
+The main code-quality issue reported was duplicate code.
+
+
+4. CYCLOMATIC COMPLEXITY
+------------------------
+Tool: Radon
+Average Complexity: A (1.6)
+Blocks Analyzed: 10
+
+Observation:
+The analyzed functions and methods have low average cyclomatic
+complexity.
+
+
+5. SUMMARY
+----------
+The project was evaluated using automated testing, code coverage,
+Pylint code-quality analysis, and Radon complexity analysis.
+
+The automated test suite achieved 19 passed tests with no failures.
+Pylint gave a code-quality score of 8.57/10.
+Radon reported an average cyclomatic complexity of A (1.6).
+The current code coverage is 12%.
